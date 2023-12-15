@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+	/*Paleta de cores*/
+	--color0:#eee;
+	--color1:#333;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--color0);
+	color: var(--color1);
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	justify-content: center;
+	margin: auto;
+}
+
+/* main */
+main {
+	margin: auto;
+	width: 55em;
+}
+
+/* header */
+header {
+	font-size: 1.2em;
+	margin: 2em .5em;
+	text-align: center;
+}
+
+header p {
+	margin-top: 1em ;
+}
+
+/* figure */
+#img-div img {
+	width: 100%;
+}
+
+figcaption {
+	font-size: 14px;
+	margin: .5em;
+	text-align: center;
+}
+
+/* section */
+#tribute-info {
+	font-size: 15px;
+}
+
+#headline {
+	padding-bottom: 3em;
+	text-align: center;
+}
+
+#headline, section > ul, blockquote {
+	margin: auto;
+	max-width: 80%;
+}
+
+section li {
+	margin-bottom: 1em;
+}
+
+blockquote p {
+	padding: 2em 0 1em;
+}
+
+h3:nth-last-child(1) {
+	font-size: 1em;
+	margin: 3em;
+}
